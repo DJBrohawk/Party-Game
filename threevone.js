@@ -1,0 +1,10 @@
+var three = ["Mario Party 4: Candlelight Fight",
+"Mario Party 4: Makin' Waves",
+"Mario Party 4: Hide and Go BOOM!",
+"Mario Party 4: Tree Stomp",
+"Mario Party 4: Fish n' Drips",
+"Mario Party 4: Hop or Pop",
+"Mario Party 4: GOOOOOOOOAL!!",
+"Mario Party 4: Blame It On The Crane",
+ "Mario Party 5: 1v3 GameName",
+ "Mario Party 6: 1v3 GameName"]
