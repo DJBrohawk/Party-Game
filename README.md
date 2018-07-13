@@ -4,7 +4,7 @@ This is a personal project to develop a Mario Party type game to play with frien
 
 The premise of this is to randomly select from a list of games, including Mario Party games, where a random Minigame will also be chosen.
 
-To keep things fresh, the idea is also to not have a game/event repeat.
+To keep things fresh, the idea is also to not have a game/event repeat for several rounds.
 
 Currently, only the Free for all part of the game is functional and is subject to additions.
 
