@@ -3,7 +3,9 @@
 var noRepeats = [];
 //array for holding a list of games so you don't play the same game repeatedly
 var mp4Nums = [];
-//array for holding a list of Mario Party 4 games so you don't get a repeat.
+var mp5Nums = [];
+var mp6Nums = [];
+//array for holding a list of Mario Party minigames so you don't get a repeat.
 
 var countPartyFour;
 var Butt = 'ASS';
@@ -14,6 +16,8 @@ function FourForAll() {
 
 if(noRepeats.length == 8){noRepeats = [];};
 if(mp4Nums.length == 7){mp4Nums = [];};
+if(mp5Nums.length == 7){mp5Nums = [];};
+if(mp6Nums.length == 7){mp6Nums = [];};
 //If the no repeats array reaches a certain length, empty it!
 //default value for now in noRepeats is 8. Any other value is used for testing. mp4Nums number is up for changing.
 
