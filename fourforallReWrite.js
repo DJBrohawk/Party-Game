@@ -8,6 +8,11 @@ var mp6Nums = [];
 //array for holding a list of Mario Party minigames so you don't get a repeat.
 
 var countPartyFour;
+var countPartyFive;
+var countPartySix;
+var countPartySeven;
+//variables for setting up no repeat minigames for each of the Mario Party games
+
 var Butt = 'ASS';
 
 
@@ -30,8 +35,6 @@ if(noRepeats.indexOf(count) === -1){
 
   if (count == 0){
     //if the result is Mario Party 4, 0 in the array
-
-
     mp4Repeats(count);
     //check the MP4 repeat function for repeating minigames, passing in the count variable....I think
     console.log(countPartyFour);
@@ -65,8 +68,6 @@ function mp4Repeats(count){
   countPartyFour = Math.floor(Math.random() * fourPartyFour.length);
   if (mp4Nums.indexOf(countPartyFour) === -1){
     //if MP4 minigame is not in no repeats array
-
-
     mp4Nums.push(countPartyFour);
     console.log(mp4Nums.length);
     //push the MP4 minigame into the array
@@ -75,35 +76,41 @@ function mp4Repeats(count){
   }else{
     mp4Repeats();
     //run the function again to try another random minigame number
-
   }
 }
 
 
 
+
+//Array for holding Mario Party 4 games for FFA
 var fourPartyFour = [
-  "Mario Speedwagons",
-  "Slime Time",
-  "Mario Medley",
-  "Domination",
-  "Avalanche",
-  "Photo Finish",
-  "Booksquirm",
-  "Three Throw",
-  "Take a Breather",
-  "Stamp Out",
-  "Mr. Blizzard's Brigade",
-  "Trace Race",
-  "Chain Chomp Fever",
-  "Paths of Peril",
-  "Bowser's Bigger Blast",
-  "Butterfly Blitz",
-  "Rumble Fishing",
-  "Bob-omb Breakers",
-  "Darts of Doom",
-  "Fruits of Doom",
-  "Balloon of Doom"
-];
+  "Mario Speedwagons","Slime Time","Mario Medley","Domination","Avalanche","Photo Finish",
+  "Booksquirm","Three Throw","Take a Breather","Stamp Out","Mr. Blizzard's Brigade","Trace Race",
+  "Chain Chomp Fever","Paths of Peril","Bowser's Bigger Blast","Butterfly Blitz","Rumble Fishing",
+  "Bob-omb Breakers","Darts of Doom","Fruits of Doom","Balloon of Doom"];
+
+//Array for holding Mario Party 5 games for FFA
+var fourPartyFive = [
+"Coney Island","Ground Pound Down","Chimp Chase","Chomp Romp","Pushy Penguins","Leaf Leap","Night Light Fright",
+"Pop-Star Piranhas","Mazed and Confused","Dinger Derby","Hydrostars","Later Skater","Will Flower",
+"Triple Jump","Hotel Goomba","Flower Shower","Dodge Bomb","Fish Upon a Star","Rumble Fumble","Frozen Frenzy",
+"Fish Sticks","Astro-Logical","Bill Blasters","Tug-o-Dorrie","Twist n' Out","Lucky Lineup","Random Ride"];
+
+//Array for holding Mario Party 6 FFA minigames
+var fourPartySix = [
+"Smashdance","Odd Card Out", "Freeze Frame","What Goes Up...","Granite Getaway","Circuit Maximus",
+"Catch You Letter","Snow Whirled","Daft Rafts","Tricky Tires", "Treasure Trawlers",
+"Memory Lane","Mowtown","Cannonball Fun","Note To Self","Same is Lame","Lift Leapers", "Blooper Scooper",
+"Trap Ease Artist", "Pokey Punch-out", "Money Belt", "Sunday Drivers", "Throw Me A Bone",
+"Hyper Sniper", "Insectiride", "Stamp By Me", "Wrasslin' Rapids", "Strawberry Shortfuse", "Control Schtick", "Dunk Bros."];
+
+//Array for holding Mario Party 7 FFA minigames
+
+var fourPartySeven = [
+"Catchy Tunes","Bubble Brawl","Track & Yield","Fun Run","Snow Ride","Picture This","Ghost in the Hall",
+"Big Dripper","Target Tag","Pokey Pummel","Take Me Ohm","Kart Wheeled","Helipopper","Monty's Revenge",
+"Deck Hands","Air Farce","The Final Countdown", "Ice Moves", "Stick and Spin"];
+
 
 var four = ["Mario Party 4: ",
 "Super Smash Bros. Melee Free For All, Items On",
